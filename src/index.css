@@ -1,0 +1,20 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+.board {
+    display: inline-block;
+    max-width: 600px;
+}
+
+.row1, .row2, .row3 {
+    display: inline-flex;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
